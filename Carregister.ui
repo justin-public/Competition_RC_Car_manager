@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomerPopuplb</class>
+ <widget class="QDialog" name="CustomerPopuplb">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>AppleSDGothicNeoB00</family>
+    <pointsize>26</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(152, 28, 152);
+background:transparaent;
+color : rgb(255,255,255);</string>
+  </property>
+  <widget class="QLabel" name="Popuplb">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>403</y>
+     <width>771</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>AppleSDGothicNeoB00</family>
+     <pointsize>36</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid rgb(219, 34, 255);
+background-color: rgb(46, 6, 61);
+color: rgb(255,255,255);
+border-radius: 10px</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Popuppushbutton">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>640</y>
+     <width>251</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>AppleSDGothicNeoB00</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#Popuppushbutton{
+	background-color: rgb(152, 28, 152);
+	border-style: outset;
+	color : rgb(255,255,255);
+	border: 5px solid rgb(255,255,255);
+	border-radius: 45px
+}
+
+QPushButton#Popuppushbutton:pressed{
+	background-color: #00796B;
+	border-style: insert;
+}</string>
+   </property>
+   <property name="text">
+    <string>체크인</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="RegCarIDTextlb">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>324</y>
+     <width>331</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>HelveticaNeueW01-66MediumIt</family>
+     <pointsize>23</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid rgb(211, 87, 254);
+color: rgb(211,87,254);
+background-color: rgb(97,24,124);
+border-radius: 10px</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="backgroundlb">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent();</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>backgroundlb</zorder>
+  <zorder>Popuplb</zorder>
+  <zorder>Popuppushbutton</zorder>
+  <zorder>RegCarIDTextlb</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
